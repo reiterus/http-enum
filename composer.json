@@ -1,0 +1,23 @@
+{
+    "name": "reiterus/http-enum",
+    "description": "HTTP methods, codes, headers and other useful enums.",
+    "keywords": ["php8", "enum", "http", "codes", "methods", "headers", "reiterus"],
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Reiterus\\HttpEnum\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "reiterus",
+            "email": "reiterus@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1"
+    }
+}
